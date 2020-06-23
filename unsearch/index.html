@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Mooshe">
+		<meta name="description" content="A tool which allows you to generate non-searchable text.">
+		<meta name="keywords" content="Unsearch, Anti-Indexing, Index, Indexing, Search, Remove, Special, Text, Generator, Generate">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Unsearch | Mooshe.TV</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<div class="body">
+			<div class="header">
+				<span>Unsearch</span>
+			</div>
+			<div class="control">
+				<div>
+					<p>Input:</p>
+					<textarea id="text-input" class="object" placeholder="Type your message here..."></textarea>
+				</div>
+				<div class="text-output-container">
+					<p>Output:</p>
+					<div id="text-output" class="object"></div>
+				</div>
+			</div>
+			<div id="text-output-warning" style="display: none;">
+				<strong>Warning:</strong>
+				It appears the input wasn't able to be replaced. The content was
+				<strong>NOT</strong> filtered and can be indexed.
+			</div>
+			<div class="description">
+				<div class="inline">
+					<h3>How-to Use:</h3>
+					<ul>
+						<li>Type your message into the input</li>
+						<li>Click on the output</li>
+						<li>Copy text</li>
+					<ul>
+				</div>
+				<div class="inline">
+					<h3>What is this for?</h3>
+					<p>
+						This is intended for people who would like to post content
+						without it being indexed by search engines (whether on
+						social media, or otherwise). It's mainly to serve as a
+						safeguard for people to speak freely without having to
+						worry about people targeting them for specific key terms,
+						such as civil rights movements or mentioning names of
+						predators on social media.
+					</p>
+				</div>
+				<div class="inline">
+					<h3>How does it work?</h3>
+					<p>
+						This tool allows you to generate text using both cyrillic
+						and greek characters, which look very similar to the English
+						alphabet. This gives the benefit of making text normally
+						readable, and preventing key terms from being easily
+						searchable.
+					</p>
+					<p>
+						Do keep in mind that this isn't fool-proof; your generated
+						text <i>will</i> be indexed, just not under the normal
+						text. This is mainly to just prevent results under dragnet
+						filters.
+					</p>
+				</div>
+				<div class="inline">
+					<h3>Does this send any data?</h3>
+					<p>
+						Nope! The data you input on this page isn't sent anywhere.
+						However, it does require javascript enabled in order to
+						work.
+					</p>
+				</div>
+			</div>
+			<div class="footer">
+				Made with
+				<svg class="heart" viewBox="0 0 32 29.6">
+					<path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+					c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+				</svg>
+				 by <a href="https://twitter.com/wildmooshe" target="_blank">@WildMooshe</a>.
+				Licensed under <a href="LICENSE" target="_blank">MIT</a>.
+				<br /><i style="color: #ccc;">Please use responsibly.</i>
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js" charset="utf-8"></script>
+		<script src="js/unsearch.js" charset="utf-8"></script>
+	</body>
+</html>
